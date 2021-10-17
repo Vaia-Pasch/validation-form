@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Enter the fields</h1>
+    <div id="error"></div>
+        <form id="form" action="/" method="GET">
+            <div>
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input id="email" name="email" type="text" required>
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input id="password" name="password" type="number" required>
+            </div>
+            <div>
+                What's your country?
+            </div>
+            <div>
+                <label for="Portugal">Portugal</label>
+                <input id="portugal" name="country" type="radio" value="portugal">
+            </div>    
+            <div>
+                <label for="Greece">Greece</label>
+                <input id="greece" name="country" type="radio" value="greece">
+            </div>
+            <div>
+                <label for="zipcode">ZipCode</label>
+                <input id="zipcode" name="zipcode" type="number" required>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    <script src="/script.js"></script>
+</body>
+</html>
