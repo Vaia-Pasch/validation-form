@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    font-family: inherit;
+    border: none;
+}
+
+body {
+    font-size: 18px;
+    font-family: monospace;
+    background: #59C173;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5D26C1, #a17fe0, #59C173);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5D26C1, #a17fe0, #59C173); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+form {
+    width: 50%;
+    text-align: center;
+}
+
+form input {
+    background-color: rgb(245, 240, 166);
+    padding: 10px;
+    cursor: pointer;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    margin: 2em;
+}
+
+
+button {
+    background-color: rgb(194, 149, 3);
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(10, 61, 155);
+}
