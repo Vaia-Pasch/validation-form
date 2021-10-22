@@ -1,5 +1,6 @@
 const name = document.getElementById("name");
 const password = document.getElementById("password");
+confirm_password = document.getElementById("cpassword");
 const email = document.getElementById("email");
 const country = document.getElementById("country");
 const zipCode = document.getElementById("zipcode");
