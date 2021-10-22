@@ -17,12 +17,21 @@ body {
 form {
     width: 50%;
     text-align: center;
+    margin: auto;
 }
 
-form input {
+form input,  #countries {
     background-color: rgb(245, 240, 166);
     padding: 10px;
     cursor: pointer;
+}
+
+#countries {
+    width: 33%;
+}
+
+h1 {
+    text-align: center;
 }
 
 .flex{
@@ -31,7 +40,6 @@ form input {
     justify-content: space-between ;
     margin: 2em;
 }
-
 
 button {
     background-color: rgb(194, 149, 3);
