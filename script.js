@@ -1,6 +1,6 @@
 const name = document.getElementById("name");
 const password = document.getElementById("password");
-confirm_password = document.getElementById("cpassword");
+cpassword = document.getElementById("cpassword");
 const email = document.getElementById("email");
 const country = document.getElementById("country");
 const zipCode = document.getElementById("zipcode");
@@ -13,8 +13,10 @@ form.addEventListener('submit', (e) => {
   
   if (password.value.length <= 6) {
     messages.push('Password must be longer than 6 characters')
+  } 
+  if (password.value != cpassword.value) {
+    alert("Password NO! matchy matchy")
   }
-
   if (email.value.match(mailFormat)) {
     alert ("Valid email")
   } else {
