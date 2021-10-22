@@ -20,7 +20,7 @@ form {
     margin: auto;
 }
 
-form input,  #countries {
+form input, #countries {
     background-color: rgb(245, 240, 166);
     padding: 10px;
     cursor: pointer;
@@ -40,6 +40,8 @@ h1 {
     justify-content: space-between ;
     margin: 2em;
 }
+
+
 
 button {
     background-color: rgb(194, 149, 3);
