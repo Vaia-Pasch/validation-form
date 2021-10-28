@@ -1,10 +1,6 @@
 const name = document.getElementById("name");
 const password = document.getElementById("password");
-<<<<<<< HEAD
-cpassword = document.getElementById("cpassword");
-=======
 const confirm_password = document.getElementById("cpassword");
->>>>>>> b6ac812c4b7b58ebfba2eceb01d30e805761cc1a
 const email = document.getElementById("email");
 const country = document.getElementById("countries");
 const zipCode = document.getElementById("zipcode");
