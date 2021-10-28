@@ -1,8 +1,8 @@
 const name = document.getElementById("name");
 const password = document.getElementById("password");
-confirm_password = document.getElementById("cpassword");
+const confirm_password = document.getElementById("cpassword");
 const email = document.getElementById("email");
-const country = document.getElementById("country");
+const country = document.getElementById("countries");
 const zipCode = document.getElementById("zipcode");
 const form = document.getElementById("form");
 const errorElement = document.getElementById('error');
